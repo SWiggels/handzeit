@@ -1,0 +1,50 @@
+de:
+  general:
+    page_title: "Handzeit"
+
+  content:
+    title: 'Willkommen bei Handzeit'
+    description:
+      b1: 'Wir öffnen, sammeln und redigieren mit dieser Seite Anregungen und Angebote rund um Beweglichkeit,
+      Handgeschick und Hand-Werk.'
+      b2: 'Wir richten unsern Blick speziell auf unsere Hände und ihre Qualitäten. Viel handwerklichs Können
+      liegt heute brach oder droht zu verschwinden,-eine Ressource die es neu zu nutzen gilt.'
+      b3: 'Wir lancieren Artikel rund um Bewegung und Hände, welche von geschützen Werkstätten produziert werden können.'
+    link:
+      main: 'Zur Handzeit'
+      about: 'Über uns'
+      contact: 'Kontakt'
+      services: 'Dienst'
+      portfolio: 'Angebot'
+
+    image:
+      main: 'Praktisch kann ich jedich eigentlich fast nichts ausser Apps öffnen und Tasten drücken'
+
+    cite:
+      main_image: 'Theoretisch kann ich praktisch alles.'
+
+  about:
+    heading: 'Über uns'
+    sub_title: 'Über uns'
+    text: 'lorem ipsum dolor sit amet'
+
+  services:
+    heading: 'Dienstleistungen'
+    title:
+      box1: 'Zeit für die Hände'
+      box2: 'Beweglich im Kopf und in den Gelenken'
+      box3: 'Die Kultur der Reparatur'
+      box4: 'Handzeit'
+    text:
+      box1: 'Handmotorik'
+      box2: 'Lorem ipsum dolor sit amet'
+      box3: 'Lorem ipsum dolor sit amet'
+      box4: 'Lorem ipsum dolor sit amet'
+
+  nav:
+    main: 'Zur Handzeit'
+    about: 'Über uns'
+    contact: 'Kontakt'
+    services: 'Dienst'
+    portfolio: 'Angebot'
+    toggle: 'Navigation einblenden'

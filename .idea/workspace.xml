@@ -28,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="creative.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/creative.css">
+      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8014706">
-              <caret line="318" column="16" selection-start-line="318" selection-start-column="16" selection-end-line="318" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.13157895">
+              <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -64,6 +64,7 @@
         <option value="$PROJECT_DIR$/app/views/welcome/_about.html.erb" />
         <option value="$PROJECT_DIR$/app/views/welcome/_lable.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/creative.css" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -623,14 +624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -2541,6 +2534,93 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8014706">
           <caret line="318" column="16" selection-start-line="318" selection-start-column="16" selection-end-line="318" selection-end-column="16" />
+          <folding>
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1436697747000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13157895">
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
           <folding />
         </state>
       </provider>

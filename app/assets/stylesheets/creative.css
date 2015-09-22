@@ -45,6 +45,11 @@ h6 {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
+h3 {
+    font-size: 1.3em;
+    font-style: italic;
+}
+
 p {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     margin-bottom: 20px;

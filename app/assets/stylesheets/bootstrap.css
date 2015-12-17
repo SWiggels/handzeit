@@ -1117,6 +1117,11 @@ img {
   max-width: 100%;
   height: auto;
 }
+.img-centered{
+    text-align: center;
+    max-width:120%;
+    height:auto;
+}
 .img-rounded {
   border-radius: 6px;
 }

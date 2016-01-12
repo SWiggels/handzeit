@@ -25,7 +25,7 @@ hr.light {
 }
 
 a {
-    color: #FFFFFF;
+    color: #24346f;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -181,6 +181,51 @@ aside {
     .navbar-default.affix .nav>li>a:focus:hover {
         color: #24346f;
     }
+
+    .handzeit {
+        text-indent: -9000px;
+        left: 0;
+        top: -16em;
+        position: absolute;
+        width: 60%;
+        height: 40em;
+        background-image: url(handzeit_logo_white.svg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+}
+
+@media(min-width:1280px) {
+    .handzeit {
+        text-indent: -9000px;
+        left: 0;
+        top: -27em;
+        position: absolute;
+        width: 60%;
+        height: 40em;
+        background-image: url(handzeit_logo_white.svg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+}
+@media(max-width:450px) {
+    .handzeit {
+        text-indent: -9000px;
+        left: 0;
+        top: 0em;
+        position: absolute;
+        width: 70%;
+        height: 15em;
+        background-image: url(handzeit_logo_white.svg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
 }
 
 header {
@@ -207,20 +252,6 @@ header {
     max-width:120%;
     height:auto;
     margin-bottom: 30px;
-}
-
-.handzeit {
-    text-indent: -9000px;
-    left: 0;
-    top: -27em;
-    position: absolute;
-    width: 60%;
-    height: 40em;
-    background-image: url(handzeit_logo_white.svg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
 }
 
 header .header-content {

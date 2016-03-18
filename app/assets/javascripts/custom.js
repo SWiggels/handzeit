@@ -1,7 +1,7 @@
 function toggleOverlay(){
     var overlay = document.getElementById('overlay');
     var specialBox = document.getElementById('specialBox');
-    overlay.style.opacity = .8;
+    overlay.style.opacity = .95;
     if(overlay.style.display == "block"){
         overlay.style.display = "none";
         specialBox.style.display = "none";

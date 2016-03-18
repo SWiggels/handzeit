@@ -1,6 +1,6 @@
 class NewsController < ApplicationController
-  before_action :authenticate_user!
-  before_action :find_news
+  before_action :find_news, only: [:edit, :update, :destroy]
+  before_action :authenticate_user!, only: [:new, :edit, :create, :update, :destroy]
 
   def index
     @allnews = News.all
@@ -15,12 +15,24 @@ class NewsController < ApplicationController
   end
 
   def create
-    entry_params = params["entry"]
-    entry = Entry.create(entry_params)
+    @news = News.new(news_params)
+    if @news.save
+      redirect_to root_path
+    else
+      render 'new'
+    end
   end
 
   def edit
 
+  end
+
+  def update
+    if @news.update(news_params)
+      redirect_to root_path
+    else
+      render 'edit'
+    end
   end
 
   def destroy
@@ -32,10 +44,10 @@ end
 
 private
 
-def info_params
+def news_params
   params.require(:news).permit(:title, :content)
 end
 
-def find_info
+def find_news
   @news = News.find(params[:id])
 end

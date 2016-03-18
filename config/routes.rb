@@ -1,8 +1,12 @@
 Rails.application.routes.draw do
 
-  devise_for :users, path_names: {sign_up: ''}
+  devise_for :users
 
  root 'welcome#homepage'
+
+  resource :news
+
+  get 'news/index' => 'news#index', as: 'newsindex'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

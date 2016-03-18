@@ -6,6 +6,6 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-user = User.create :email => 'daniel@oechslin.eu', :password => '$2a$10$jQCy5OVPi9oylyGBmbn.5OKBuM.EXhhQ8RhTyXhkNnP2pVyq3nkvG', :password_confirmation => "$2a$10$jQCy5OVPi9oylyGBmbn.5OKBuM.EXhhQ8RhTyXhkNnP2pVyq3nkvG"
+user = User.create! :email => 'daniel@oechslin.eu', :password => '$2a$10$jQCy5OVPi9oylyGBmbn.5OKBuM.EXhhQ8RhTyXhkNnP2pVyq3nkvG', :password_confirmation => '$2a$10$jQCy5OVPi9oylyGBmbn.5OKBuM.EXhhQ8RhTyXhkNnP2pVyq3nkvG'
 
 news = News.create! :title => '', :content=> '', :picture => ''

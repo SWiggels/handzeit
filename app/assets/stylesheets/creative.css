@@ -391,11 +391,13 @@ div#overlay {
 }
 
 div#specialBox {
+    border-radius: 25px;
+    text-align: center;
     display: none;
     position: relative;
     z-index: 3;
-    margin: 150px auto 0px auto;
-    width: 90%;
+    margin: 60px auto 0px auto;/*margin: 150px auto 0px auto;*/
+    width: 95%;
     height: 90%;
     background: #FFF;
     color: #000;
@@ -719,3 +721,7 @@ body {
     max-width:120%;
     height:auto;
 }
+
+/*
+* news special css.
+*/

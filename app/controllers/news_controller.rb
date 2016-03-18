@@ -11,7 +11,7 @@ class NewsController < ApplicationController
   end
 
   def new
-
+    @news = News.new
   end
 
   def create
@@ -23,12 +23,19 @@ class NewsController < ApplicationController
 
   end
 
-  def delete
-
+  def destroy
+    @news.destroy
+    redirect_to root_path
   end
 
 end
 
-def find_news
-  @news = News.find(params["id"])
+private
+
+def info_params
+  params.require(:news).permit(:title, :content)
+end
+
+def find_info
+  @news = News.find(params[:id])
 end

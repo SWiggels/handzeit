@@ -132,6 +132,67 @@ aside {
     background-color: transparent;
 }
 
+@media(min-width:480px) {
+    .handzeit {
+        text-indent: -9000px;
+        left: 0;
+        top: -2em;
+        position: absolute;
+        width: 60%;
+        height: 20em;
+        background-image: url(handzeit_logo_white.svg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+}
+@media(min-width:568px) {
+    .handzeit {
+        text-indent: -9000px;
+        left: 0;
+        top: -4em;
+        position: absolute;
+        width: 60%;
+        height: 20em;
+        background-image: url(handzeit_logo_white.svg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+}
+
+@media(min-width:600px) {
+    .handzeit {
+        text-indent: -9000px;
+        left: 0;
+        top: -4em;
+        position: absolute;
+        width: 60%;
+        height: 20em;
+        background-image: url(handzeit_logo_white.svg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+}
+@media(min-width:640px) {
+    .handzeit {
+        text-indent: -9000px;
+        left: 0;
+        top: -5em;
+        position: absolute;
+        width: 60%;
+        height: 20em;
+        background-image: url(handzeit_logo_white.svg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+}
 @media(min-width:768px) {
     .navbar-default {
         border-color: rgba(255,255,255,.3);
@@ -197,6 +258,36 @@ aside {
     }
 }
 
+@media(min-width:800px) {
+    .handzeit {
+        text-indent: -9000px;
+        left: 0;
+        top: -15em;
+        position: absolute;
+        width: 60%;
+        height: 40em;
+        background-image: url(handzeit_logo_white.svg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+}
+@media(min-width:950px) {
+    .handzeit {
+        text-indent: -9000px;
+        left: 0;
+        top: -22em;
+        position: absolute;
+        width: 60%;
+        height: 40em;
+        background-image: url(handzeit_logo_white.svg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+}
 @media(min-width:1000px) {
     .handzeit {
         text-indent: -9000px;
@@ -212,7 +303,6 @@ aside {
         -o-background-size: cover;
     }
 }
-
 @media(min-width:1280px) {
     .handzeit {
         text-indent: -9000px;

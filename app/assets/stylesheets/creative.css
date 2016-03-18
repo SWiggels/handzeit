@@ -197,6 +197,22 @@ aside {
     }
 }
 
+@media(min-width:1000px) {
+    .handzeit {
+        text-indent: -9000px;
+        left: 0;
+        top: -24em;
+        position: absolute;
+        width: 60%;
+        height: 40em;
+        background-image: url(handzeit_logo_white.svg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+}
+
 @media(min-width:1280px) {
     .handzeit {
         text-indent: -9000px;
@@ -205,6 +221,36 @@ aside {
         position: absolute;
         width: 60%;
         height: 40em;
+        background-image: url(handzeit_logo_white.svg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+}
+@media(min-width:1600px) {
+    .handzeit {
+        text-indent: -9000px;
+        left: 0;
+        top: -30em;
+        position: absolute;
+        width: 60%;
+        height: 80em;
+        background-image: url(handzeit_logo_white.svg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
+}
+@media(min-width:2000px) {
+    .handzeit {
+        text-indent: -9000px;
+        left: 0;
+        top: -60em;
+        position: absolute;
+        width: 60%;
+        height: 80em;
         background-image: url(handzeit_logo_white.svg);
         -webkit-background-size: cover;
         -moz-background-size: cover;

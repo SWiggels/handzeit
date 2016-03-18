@@ -2,6 +2,7 @@
 <%= @allnews.each do |news| %>
     <%= news.title %><br>
     <%= news.content %><br><br>
+    <%= image_tag(news.picture_url) if news.picture.present? %>
 <% end %>
 
 

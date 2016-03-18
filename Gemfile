@@ -16,6 +16,8 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'pg'
 gem 'devise'
 gem 'simple_form', '~> 3.2', '>= 3.2.1'
+gem 'carrierwave'
+gem 'mini_magick', '3.8.0'
 
 gem 'rails_12factor'
 

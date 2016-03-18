@@ -2,7 +2,10 @@
   <div>
     <div id="specialBox">
       <p><%= @newest.title %><br>
-      <%= @newest.content %></p>
+      <%= @newest.content %><br>
+       </p>
+
+      <%= image_tag(@newest.picture_url) if @newest.picture.present? %>
 
       <button onmousedown="toggleOverlay()">News schliessen</button>
     </div>

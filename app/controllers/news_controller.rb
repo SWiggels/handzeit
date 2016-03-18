@@ -45,7 +45,7 @@ end
 private
 
 def news_params
-  params.require(:news).permit(:title, :content)
+  params.require(:news).permit(:title, :content, :picture)
 end
 
 def find_news

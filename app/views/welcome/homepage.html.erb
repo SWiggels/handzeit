@@ -57,7 +57,8 @@
 
     <%= render :partial => "links" %>
 
-    <%= render :partial => "contact" %>
+    <%= render :partial => "contact" %><br>
+    <%= link_to "Admin", user_session_path %> <%= link_to('Logout', destroy_user_session_path, :method => :delete) %>
 
     <!-- jQuery -->
     <script src="assets/jquery.js"></script>

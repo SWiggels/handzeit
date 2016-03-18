@@ -1,2 +1,7 @@
 News editieren: <br>
-<%= render 'simpleform'%>
+<%= simple_form_for @news, url: editnews_path do |f| %>
+    <%= f.input :title %>
+    <%= f.input :content %>
+    <%= f.file_field :picture %>
+    <%= f.button :submit %>
+<% end %>

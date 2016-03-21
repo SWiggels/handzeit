@@ -1,7 +1,39 @@
-News editieren: <br>
+News editieren: <br><br>
 <%= simple_form_for @news, url: editnews_path do |f| %>
     <%= f.input :title %>
     <%= f.input :content %>
     <%= f.file_field :picture %>
+
+    Aktuelles Bild:<br>
+    <%= image_tag(@newest.picture_url) if @newest.picture.present? %><br>
+
+
+    <p>
+      <label>
+        <%= f.check_box :remove_picture %>
+        Bild löschen?
+      </label>
+    </p>
+
+
+
     <%= f.button :submit %>
 <% end %>
+
+<script>
+
+  $(document).ready(function(){
+
+    var datelist = 0;
+    $( "#ck-button" ).click(function()  {
+      if (datelist == 0){
+        datelist = 1;
+        alert( datelist );
+      } else {
+        datelist = 0;
+        alert( datelist );
+      }
+      document.getElementById("remove_picture").value = datelist;
+    });
+  });
+</script>

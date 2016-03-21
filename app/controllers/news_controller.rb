@@ -24,10 +24,12 @@ class NewsController < ApplicationController
   end
 
   def edit
-
+    @newest = News.last
   end
 
   def update
+    @remove_picture = params[:remove_picture]
+    params
     if @news.update(news_params)
       redirect_to root_path
     else
@@ -45,7 +47,7 @@ end
 private
 
 def news_params
-  params.require(:news).permit(:title, :content, :picture)
+  params.require(:news).permit(:title, :content, :picture, :remove_picture)
 end
 
 def find_news

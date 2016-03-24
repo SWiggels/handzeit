@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.2.2'
+ruby '2.2.3'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.1'
 # Use sqlite3 as the database for Active Record
@@ -14,6 +14,10 @@ gem 'coffee-rails', '~> 4.0.0'
 # gem 'therubyracer',  platforms: :ruby
 
 gem 'pg'
+gem 'devise'
+gem 'simple_form', '~> 3.2', '>= 3.2.1'
+gem 'carrierwave'
+gem 'mini_magick', '3.8.0'
 
 gem 'rails_12factor'
 

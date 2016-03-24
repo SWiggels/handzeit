@@ -25,11 +25,14 @@
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+
     <![endif]-->
 
 </head>
 
 <body id="page-top">
+
+    <%= render :partial => "news" %>
 
     <%= render :partial => "nav" %>
 
@@ -43,15 +46,19 @@
 
     <%= render :partial => "consulting" %>
 
-    <%= render :partial => "lable" %>
-
     <%= render :partial => "about" %>
+
+    <%= render :partial => "lable" %>
 
     <%= render :partial => "weather" %>
 
+    <%= render :partial => "chainreaction" %>
+
     <%= render :partial => "links" %>
 
-    <%= render :partial => "contact" %>
+    <%= render :partial => "contact" %><br>
+    <%= link_to "Admin", user_session_path %> <%= link_to('Logout', destroy_user_session_path, :method => :delete) %><br>
+    <%= @newest.title %>
 
     <!-- jQuery -->
     <script src="assets/jquery.js"></script>

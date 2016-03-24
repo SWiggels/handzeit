@@ -1,6 +1,14 @@
 Rails.application.routes.draw do
- 
+
+  devise_for :users
+
  root 'welcome#homepage'
+
+  resource :news
+
+  get 'news/index' => 'news#index', as: 'newsindex'
+  get 'news/edit/:id' => 'news#edit', as: 'editnews'
+  patch 'news/edit/:id', controller: 'news', action: :update
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

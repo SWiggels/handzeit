@@ -10,8 +10,8 @@ default: &default
   pool: 5
   timeout: 5000
   host: localhost
+  database: handzeit
   port: 5432
-
 
 development:
   <<: *default
@@ -26,7 +26,8 @@ test:
 
 production:
   <<: *default
+  database: handzeit
   host: ec2-107-22-175-206.compute-1.amazonaws.com
   database: d6u9r05mg68vqu
-    user: dxbzuigfnshzpm
-    password: AGBiJ7yLgiRFCQR1fyTK6AXji6
+  user: dxbzuigfnshzpm
+  password: AGBiJ7yLgiRFCQR1fyTK6AXji6

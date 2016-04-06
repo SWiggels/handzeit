@@ -769,7 +769,7 @@ body {
 }
 #wrapper .text {
     position:relative;
-    bottom:130px;
+    bottom:110px;
     left:14px;
     visibility:hidden;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
@@ -779,6 +779,12 @@ body {
 #wrapper:hover .text {
     visibility:visible;
 }
+#wrapper:hover img{
+    opacity: 0.4;
+    filter: alpha(opacity=92); /* msie */
+    background-color: #000;
+}
+
 #pdfInARow{
     clear:right;
 }

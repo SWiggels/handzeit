@@ -760,3 +760,25 @@ body {
     background-color:#911;
     color:#fff;
 }
+
+/* pdf preview */
+#wrapper{
+    float:left;
+    position: relative;
+    width: 110px;
+}
+#wrapper .text {
+    position:relative;
+    bottom:130px;
+    left:14px;
+    visibility:hidden;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    color: #24346f;
+}
+
+#wrapper:hover .text {
+    visibility:visible;
+}
+#pdfInARow{
+    clear:right;
+}

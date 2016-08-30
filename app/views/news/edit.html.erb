@@ -1,12 +1,16 @@
-News editieren: <br><br>
-<%= simple_form_for @news, url: editnews_path do |f| %>
-    <%= f.input :title %>
-    <%= f.input :content %>
+<h1>News editieren: </h1>
+
+<br>
+<%= simple_form_for @news, html: { class: 'form-vertical' }, url: editnews_path do |f| %>
+    <%= f.input :title, lable: 'Überschrift' %>
+    <%= f.input :content, label: 'Text' %>
     <%= f.file_field :picture %>
 
-    Aktuelles Bild:<br>
-    <%= image_tag(@newest.picture_url) if @newest.picture.present? %><br>
+    <h5>Aktuelles Bild:</h5>
 
+    <%= image_tag(@newest.picture_url) if @newest.picture.present? %><br>
+    <br>
+<br>
 
     <p>
       <label>

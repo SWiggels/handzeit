@@ -792,3 +792,8 @@ body {
 #pdfInARow{
     clear:right;
 }
+
+.news {
+    margin: 5%;
+
+}

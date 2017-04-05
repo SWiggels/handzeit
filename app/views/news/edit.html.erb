@@ -3,7 +3,7 @@
 <br>
 <%= simple_form_for @news, html: { class: 'form-vertical' }, url: editnews_path do |f| %>
     <%= f.input :title, lable: 'Überschrift' %>
-    <%= f.input :content, label: 'Text' %>
+    <%= f.input :content, label: 'Text', style: 'float: left; width: 60%; heigth:40%;'%>
     <%= f.file_field :picture %>
 
     <h5>Aktuelles Bild:</h5>
@@ -18,9 +18,6 @@
         Bild löschen?
       </label>
     </p>
-
-
-
     <%= f.button :submit %>
 <% end %>
 

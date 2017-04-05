@@ -794,6 +794,9 @@ body {
 }
 
 .news {
-    margin: 5%;
+    margin: 2%;
+}
 
+.newslink{
+    color: blue;
 }

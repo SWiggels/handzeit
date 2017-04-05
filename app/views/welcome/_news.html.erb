@@ -4,7 +4,7 @@
       <br>
       <button type="button" class="btn btn-info" onmousedown="toggleOverlay()">News schliessen</button><br>
       <p><h1><%= @newest.title %></h1>
-      <p class="news" ><%= @newest.content %></p>
+      <p class="news" ><%= @newest.content.html_safe %></p>
       </p><br>
       <%= image_tag(@newest.picture_url) if @newest.picture.present? %>
     </div>

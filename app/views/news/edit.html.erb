@@ -3,7 +3,7 @@
 <br>
 <%= simple_form_for @news, html: { class: 'form-vertical' }, url: editnews_path do |f| %>
     <%= f.input :title, lable: 'Überschrift' %>
-    <%= f.input :content, label: 'Text', :class => 'newsField'%>
+    <%= f.input :content, label: 'Text'%>
     <%= f.file_field :picture %>
 
     <h5>Aktuelles Bild:</h5>
